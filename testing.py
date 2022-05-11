@@ -1,3 +1,17 @@
+### BRUTE FORCE PIN UNLOCK 
+
+print("   ")
+print ("Pin unlock:  ")
+print("   ")
+
+
+
+from bruteforce.pin_unlock import unlock
+
+print("***Pin unlock***")
+print(unlock("2812"))
+
+
 list=[5,10,3,7,4,9,8]
 
 
@@ -8,7 +22,10 @@ print("   ")
 print ("Bubble sort: ")
 print("   ")
 
-from sorting.bubblesort import bubble_sort 
+from sort.bubblesort import bubble_sort
+
+print("input: " , [2, 92, 8, -4, 0])
+print("output: " , bubble_sort([2, 92, 8, -4, 0]))
 
 
 print("   ")
@@ -17,19 +34,28 @@ print("   ")
 print ("Selection sort: ")
 print("   ")
 
-from sorting.selectionsort import selection_sort
+from sort.selectionsort import selection_sort
 
 print("   ")
 print ("Bubble sort optimizado: ")
 print("   ")
 
-from sorting.bubblesortopt import bubble_sort_opt
+from sort.bubblesortopt import bubble_sort_opt
+
+print("input: " , [2, 92, 8, -4, 0])
+print("output: " , bubble_sort_opt([2, 92, 8, -4, 0]))
+
+
 
 print("   ")
-print ("Insertion sort: ")
+print ("Insertion: ")
 print("   ")
 
-from sorting.insertionsort import selection_sort
+from sort.insertionsort import insertion_sort
+
+
+print("input: " , [2, 92, 8, -4, 0])
+print("output: " , insertion_sort([2, 92, 8, -4, 0]))
 
 
 # #### LISTAS 
@@ -63,16 +89,6 @@ print("   ")
 
 # n = int(input("ingrese un numero n: "))
 
-print("   ")
-print ("Pin unlock:  ")
-print("   ")
-
-
-
-from bruteforce.pin_unlock import unlock
-
-print("***Pin unlock***")
-print(unlock("2812"))
 
 
 
@@ -111,7 +127,6 @@ print("   ")
 
 
 from recursion.countdown import regresive
-print("***Cuenta regresiva***")
 print(regresive(10+1))
 
 print("   ")
