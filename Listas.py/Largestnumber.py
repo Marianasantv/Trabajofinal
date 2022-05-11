@@ -1,7 +1,13 @@
 
-def largest_number(arr):
-    Max = list[0]
-    for i in range (len(list)):
-        if (list[i]> Max):
-        Max = list[i]
-print("El valor máximo de la lista es: " +str(Max)) 
+import random
+
+def maximo():
+    randomlist = random.sample(range(1, 1000), 100)
+    print(randomlist)
+
+    maximo = None
+    for num in randomlist:
+        if (maximo is None or num > maximo):
+            maximo = num
+
+    print("Valor maximo", maximo)
