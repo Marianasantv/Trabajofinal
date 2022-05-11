@@ -1,6 +1,4 @@
-# list=[5,10,3,7,4,9,8]
-
-
+list=[5,10,3,7,4,9,8]
 
 
 # ### SORTING 
@@ -10,29 +8,31 @@ print("   ")
 print ("Bubble sort: ")
 print("   ")
 
-from Sorting.bubblesort import bubble_sort 
+from sorting.bubblesort import bubble_sort 
 
 
-# print("   ")
+print("   ")
 
 print("   ")
 print ("Selection sort: ")
 print("   ")
 
-from Sorting.selectionsort import selection_sort
+from sorting.selectionsort import selection_sort
 
 print("   ")
 print ("Bubble sort optimizado: ")
 print("   ")
 
-from Sorting.bubblesortopt import bubble_sort_opt
+from sorting.bubblesortopt import bubble_sort_opt
 
 print("   ")
 print ("Insertion sort: ")
 print("   ")
 
+from sorting.insertionsort import selection_sort
 
-#### LISTAS 
+
+# #### LISTAS 
 
 
 
@@ -40,13 +40,16 @@ print("   ")
 print ("Largest number in list: ")
 print("   ")
 
-from Listas.Largestnumber import maximo
-print("El resultado es: ")
-maximo()
+from listas.largestnumber import maximo
+maximo ()
+
 
 print("   ")
 print ("Merge lists: ")
 print("   ")
+
+from listas.merge_list import combinar
+combinar()
 
 
 
@@ -64,15 +67,15 @@ print("   ")
 print ("Pin unlock:  ")
 print("   ")
 
+
+
 from bruteforce.pin_unlock import unlock
 
-print("El resultado es: ")
+print("***Pin unlock***")
 print(unlock("2812"))
 
 
-print("   ")
-print ("Pin unlock:  ")
-print("   ")
+
 
 print("   ")
 print ("Divisores de N:  ")
