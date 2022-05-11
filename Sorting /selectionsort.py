@@ -10,3 +10,4 @@ def selection_sort (arr):
 print(selection_sort([-2,10,5,3,8,20,-1]))
 
 
+
